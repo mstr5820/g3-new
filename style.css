@@ -20,6 +20,11 @@
 .text-light-gray{
     color: #727272;
 }
+.comon-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313
+}
 
 /* hader styls */
 header{
@@ -47,11 +52,6 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313
 }
 
 /* banner style */
