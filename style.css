@@ -17,6 +17,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.text-light-gray{
+    color: #727272;
+}
 
 /* hader styls */
 header{
@@ -63,39 +66,15 @@ nav li a{
     font-size: 4rem;
     color: #131313;
 }
-
-.ban-discrip{
-    color: #727272;
-}
 .banner img{
     margin-top: 20px;
     width: 100%;
 }
 
-/* responsive styles */
-/* mobile */
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
-    nav{
-        flex-direction: column;
-    }
-}
-/* medium */
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    header{
-        padding: 50px;
-    }
-    nav{
-        flex-direction: column;
-    }
-}
-
 /* main styls */
 main{
     max-width: 1440px;
-    margin: auto;
+    margin: 70px auto;
 }
 
 /* tems-contaner */
@@ -122,4 +101,37 @@ main{
 .tems-title .FE{
     color: #FF900E;
     font-weight: 700;
+}
+
+/* responsive styles */
+/* mobile */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav,
+    .tems-container {
+        flex-direction: column;
+    }
+    .tems-img-con{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tems-contant{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+/* medium */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav,
+    .tems-container
+    {
+        flex-direction: column;
+    }
+    .tems-img-con{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
