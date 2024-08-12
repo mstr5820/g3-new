@@ -91,3 +91,35 @@ nav li a{
         flex-direction: column;
     }
 }
+
+/* main styls */
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* tems-contaner */
+.tems-container{
+    display: flex;
+    align-items: center;
+}
+.tems-img-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.tems-contant{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.tems-title{
+    font-size: 2.8rem;
+}
+.tems-title .QL{
+    color: #727272;
+    font-weight: 500;
+}
+.tems-title .FE{
+    color: #FF900E;
+    font-weight: 700;
+}
